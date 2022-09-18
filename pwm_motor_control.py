@@ -13,7 +13,7 @@ motor_pwm.start(0)
 
 try:
     while True:
-        duty = input('Enter Duty Cycle (0 to 100): ')
+        duty = int(input('Enter Duty Cycle (0 to 100): '))
         if duty < 0 or duty > 100:
             print('0 to 100')
         else:
