@@ -4,6 +4,8 @@
 import RPi.GPIO as GPIO
 
 
+GPIO.setmode(GPIO.BCM)
+
 enable_pin = 18
 in_1_pin = 23
 in_2_pin = 24
