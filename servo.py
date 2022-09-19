@@ -7,8 +7,8 @@ import RPi.GPIO as GPIO
 servo_pin = 18
 
 # Корректируем эти значения, чтобы серводвигатель вращался на полную мощность
-deg_0_pulse = 0.5  # ms
-deg_180_pulse = 2.5  # ms
+deg_0_pulse = 0.544  # ms
+deg_180_pulse = 2.4  # ms
 f = 50.0  # 50Hz = 20ms between pulses
 
 # Вычисляем широту ШИМ
